@@ -1,5 +1,7 @@
 <?php
-	session_start();
+	if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
 	$servername = "us-cdbr-east-06.cleardb.net";
     $username = "b9d7c802785a99";
     $password = "835797f1";
