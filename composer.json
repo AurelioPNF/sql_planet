@@ -1,0 +1,6 @@
+{
+    "require": {
+        "components/jquery": "^3.6",
+        "components/bootstrap": "^4.6"
+    }
+}
