@@ -17,13 +17,10 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema ilhasql
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `ilhasql` DEFAULT CHARACTER SET latin1 ;
-USE `ilhasql` ;
-
 -- -----------------------------------------------------
 -- Table `ilhasql`.`cidade`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `ilhasql`.`cidades` (
+CREATE TABLE IF NOT EXISTS `cidades` (
   nome_cidade VARCHAR(255) NOT NULL,
   guilda VARCHAR(45) NULL DEFAULT NULL,
   guildmaster VARCHAR(45) NULL DEFAULT NULL,
@@ -37,18 +34,17 @@ DEFAULT CHARACTER SET = latin1;
 -- Table `ilhasql`.`aventureiro`
 -- -----------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS `ilhasql`.`aventureiro`(
+CREATE TABLE IF NOT EXISTS `aventureiro`(
  cartao VARCHAR(255) NOT NULL,
  nome varchar(45) NULL DEFAULT NULL,
  ranque int(2) NULL DEFAULT NULL,
  classe varchar(45) NULL DEFAULT NULL,
  gold int(11) null default null,
  nome_cidade varchar(255) null default null,
- primary key (cartao),
- foreign key aventureiro(nome_cidade) REFERENCES cidades(nome_cidade)
+ primary key (cartao)
 );
 
-CREATE TABLE IF NOT EXISTS `ilhasql`.`Comidas`(
+CREATE TABLE IF NOT EXISTS `Comidas`(
 	nome VARCHAR(255) NOT NULL,
     preco int(11) null default null,
     validade int(11) null default null

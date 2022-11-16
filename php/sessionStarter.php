@@ -1,9 +1,9 @@
 <?php
 	session_start();
-	$servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "ilhasql";
+	$servername = "mysql://b9d7c802785a99:835797f1@us-cdbr-east-06.cleardb.net/heroku_7bd78ab84fef851?reconnect=true";
+    $username = "b9d7c802785a99";
+    $password = "835797f1";
+    $dbname = "heroku_7bd78ab84fef851";
     $conn = new mysqli($servername, $username, $password, $dbname);
     if(!$conn){
         die("Erro na conexão" . mysqli_connect_error());
