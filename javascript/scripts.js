@@ -68,7 +68,7 @@ $( window ).on("load", function(){
 
 		],
 		[
-			["Já selecionei o banco de dadospra você!É só clicar no botão ENVIAR e o exemplo vai aparecer, selecionando tudo da tabela comidas!"],
+			["Já selecionei o banco de dados pra você!É só clicar no botão ENVIAR e o exemplo vai aparecer, selecionando tudo da tabela comidas!"],
 			[1],
 			[query_Tutorial],
 			["SELECT * from Comidas"],
