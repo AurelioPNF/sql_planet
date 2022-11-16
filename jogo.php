@@ -33,12 +33,12 @@
 			</div><!-- Fim chat Div -->
 
 			<div id="mensagens"><!-- mensagens Div -->	
-				<textarea id="comandos" class="comandos" placeholder="SELECT * from cidade"></textarea>
+				<textarea id="comandos" class="comandos" placeholder="SELECT * from cidades"></textarea>
 				<button class="btnBotao">Enviar</button>
 			</div><!-- Fim mensagens Div -->
 
 			<div class="tabelas"><!--Div tabelas -->
-				COMIDAS(nome, preco, validade)   CIDADE(nome_cidade,guilda, prefeito, qtd_habitantes)   AVENTUREIRO(cartao_aventureiro,nome,ranque,classe,gold,nome_cidade)
+				COMIDAS(nome, preco, validade)   CIDADES(nome_cidade,guilda, prefeito, qtd_habitantes)   AVENTUREIRO(cartao_aventureiro,nome,ranque,classe,gold,nome_cidade)
 			</div><!--Fim div tabelas -->
 
 		</div><!--Fim 'chatDiv' Div-->

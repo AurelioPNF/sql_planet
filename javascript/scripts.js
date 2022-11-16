@@ -452,7 +452,7 @@ $( window ).on("load", function(){
 
 		],
 		[
-			["Tente alterar o ranque do Guerreiro que adicionamos antes, Joaquim, para 9, para promovê-lo! Lembre-se que pode sempre voltar se tiver dúvidas!"],
+			["Tente alterar o ranque do aventureiro de classe Guerreiro que adicionamos antes, Joaquim, para 9, para promovê-lo! Lembre-se que pode sempre voltar se tiver dúvidas!"],
 			[1],
 			[""],
 			[""],
