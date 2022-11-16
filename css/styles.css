@@ -1,0 +1,376 @@
+
+
+html{
+	/*background-color: grey;*/
+}
+
+body{
+	background-color: #96ADC8;
+	/*background-image: url("78765.jpg");*/
+}
+
+div{
+	color: #d4d4d4;
+	/*background-color: grey;*/
+}
+#introDiv{
+	width: 18%;
+	height: 60%;
+	margin-top: 10%;
+	background-color: #1F2232;
+	border: solid #96ADC8 1px;
+	border-radius: 1em;
+	color: #FFBD34;
+	margin-left: 40%;
+	float:left;
+}
+#introDiv b{
+	font-family: 'Heebo', sans-serif;
+	width: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	display: block;
+	font-size: 150%;
+}
+#introDiv button{
+	font-family: 'Heebo', sans-serif;
+	background-color: #A4243B;
+	border: solid 0.01em #FFBD34;
+	border-radius: 0.5em;
+	color: #FFBD34;
+	width: 35%;
+	font-size: 190%;
+	display: block;
+	margin-top: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#chatDiv{
+	margin-top: 2%;
+	margin-left: 45%;
+	margin-right: auto;
+	width: 50%;
+	height: 50em;
+	z-index: 1000;
+}
+#chat{
+	background-color: #1F2232;
+	border: solid #96ADC8 1px;
+	border-bottom: 0;
+	margin: 0px;
+	width: 100%;
+	height: 90%;
+	overflow-x: auto;
+	font-size: 20px;
+	font-family: Consolas,monaco,monospace; 
+}
+#chat .div{
+	position: relative;
+	margin-left: 25%;
+	margin-top: 9%;
+	float: left;
+	width: 15%;
+	padding: 2%;
+	background: #1F2232;
+	border-radius: .4em;
+	color: #FFBD34;
+	font-weight: 600;
+	font-family: Consolas,monaco,monospace;
+}
+#chat .div:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #1F2232;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+#mensagens{
+	width: 100%;
+	height: 8%;
+	background-color: #1F2232;
+	color: #FFBD34;
+	font-family: Consolas,monaco,monospace;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	z-index: 1001;
+}
+.comandos{
+	background-color: #1F2232;
+	border: solid #96ADC8 0.1em;
+	margin: 0;
+	padding: 0;
+	margin-right: 0;
+	height: 100%;
+	width: 85%;
+	resize: none;
+	font-size: 125%;
+	font-weight: 600;
+	/*border-bottom-left-radius: 1em;*/
+	color: #FFBD34;
+	z-index: 1001;
+}
+.comandos:focus{
+	outline:0;
+}
+::placeholder {
+  color: #969696;
+  opacity: .7;
+}
+.btnBotao{
+	display: inline-block;
+	z-index: 1001;
+	height: 100%;
+	width: 15%;
+	float: right;
+	margin: 0;
+	margin-top: -0.01em;
+	padding-right: 1em;
+	padding-left: 1em;
+	background-color: #A4243B;
+	border: solid 0.1em #FFBD34;
+	color: #FFBD34;
+	font-weight: 700;
+	/*border-bottom-right-radius: 1em;*/
+}
+.btnBotao:hover{
+	background-color: #FFBD34;
+	color: #A4243B;
+}
+.btnBotao:disabled,button[disabled]{
+	background-color: #96ADC8;
+	border: 0;
+	color: #1F2232;
+}
+.btnBotao:disabled:hover,button[disabled]{
+	background-color: #96ADC8;
+	border: 0;
+	color: #1F2232;
+}
+.btnBotao:click{
+	background-color: red;
+	border: solid grey 1%;
+}
+.btnBotao:focus{
+	outline:0;
+}
+.tabelas{
+	padding: 0.5em;
+	color: #FFBD34;
+	font-family: Consolas,monaco,monospace;
+	font-weight: 800;
+	font-size: .56vw;
+	text-align: center;
+	
+	z-index: 0;
+	width: 100%;
+	height: 1.8vw;
+	float: left;
+	background-color: #1F2232;
+	border: solid #96ADC8 1px;
+	border-top: 0;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+.Diamond{
+	position: relative;
+	margin-left: 8%;
+	margin-top: 15%;
+	float: left;
+	width: 224px;
+	height: 227px;
+	padding: 2%;
+	background-image: url("../images/Diamond.png");
+	/*<a id="ref_Background" href="https://br.freepik.com/fotos-vetores-gratis/fundo">Fundo vetor criado por rawpixel.com - br.freepik.com</a>*/
+}
+.speech-bubble {
+	position: relative;
+	margin-left: 1%;
+	margin-top: 14%;
+	float: left;
+	width: 15%;
+	padding-bottom: 0;
+	background: #1F2232;
+	border-radius: .4em;
+	color: #FFBD34;
+	font-weight: 600;
+	font-family: Consolas,monaco,monospace;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #1F2232;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+#quest{
+	color: #FFBD34;
+	font-family: Consolas,monaco,monospace;
+	margin: 5%;
+	margin-bottom: 3%;
+}
+.caixa-botao{
+	width: 100%;
+	height: 50%;
+	background-color: #1F2232;
+	border-bottom-left-radius: .4em;
+	border-bottom-right-radius: .4em;
+}
+.btnContinuar{
+	float: right;
+	width: 40%;
+	margin-right: 0%;
+	border:solid #FFBD34;
+	border-top-color: #E09600;
+	border-left-color: #E09600;
+	border-bottom-right-radius: .4em;
+	border-width: .1em;
+	padding-right: 1em;
+	padding-left: .5em;
+	background-color: #A4243B;
+	color: #FFBD34;
+	font-weight: 700;
+	font-size: .8em;
+}
+.btnContinuar:hover{
+	background-color: #FFBD34;
+	color: #A4243B;
+}
+.btnContinuar:disabled,button[disabled]{
+	background-color: #96ADC8;
+	border:solid #96ADC8 0.1em;
+	color: #1F2232;
+}
+.btnContinuar:focus{
+	outline:0;
+}
+.btnVoltar{
+	float: left;
+	width: 40%;
+	margin-right: 15%;
+	border:solid #FFBD34;
+	border-top-color: #E09600;
+	border-right-color: #E09600;
+	border-bottom-left-radius: .4em;
+	border-width: .1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	background-color: #A4243B;
+	color: #FFBD34;
+	font-weight: 700;
+	font-size: .8em;
+}
+.btnVoltar:hover{
+	background-color: #FFBD34;
+	color: #A4243B;
+}
+.btnVoltar:focus{
+	outline:0;
+}
+.speech-bubble2 {
+	position: relative;
+	float: left;
+	width: 90%;
+	padding: 2%;
+	background: grey;
+	border-radius: .4em;
+	color: #FFBD34;
+	font-weight: 600;
+	font-family: Consolas,monaco,monospace;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+
+.speech-bubble3 {
+	clear:both;
+	position: relative;
+	font-size: .7em;
+	float: left;
+	width: auto;
+	padding: 2%;
+	background: grey;
+	border-radius: .4em;
+	color: #FFBD34;
+	font-weight: 600;
+	font-family: Consolas,monaco,monospace;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.speech-bubble4 {
+	position: relative;
+	font-size: .7em;
+	float: left;
+	width: auto;
+	padding: 2%;
+	background: grey;
+	border-radius: .4em;
+	color: #FFBD34;
+	font-weight: 600;
+	font-family: Consolas,monaco,monospace;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+.linha{
+	width: 100%;
+}
+table{
+	position: relative;
+	width: 100%;
+	font-size: .65em;
+	background-color: grey;
+	color: #FFBD34;
+	margin: 0px;
+	padding: 0px;
+}
+
+th{
+	background-color: #1F2232;
+	font-size: 1em;
+	padding: .6em;
+	text-align: center;
+	border: none;
+}
+th:first-child{
+
+}
+th:last-child{
+	
+}
+tr{
+	border: .1em #1F2232;
+	text-align: center;
+}
+tr:nth-child(odd){
+  background-color: #1F2232;
+}
+td{
+	border: .1em solid #1F2232;
+	text-align: center;
+}
+#ref_Background{
+	color:gray;
+}
+#ref_Background:hover{
+	color:black;
+}
+#ref_Background:focus{
+	outline:0;
+}

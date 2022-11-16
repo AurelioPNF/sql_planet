@@ -1,0 +1,23 @@
+1- Fazer os negocio de apagar todas as tables criadas pela sessão quando a sessão expirar, tem
+um comentário explicando mais sobre como fazer e onde pesquisar dentro do sessionStarter
+
+2- Fazer a parte de delete, isso requer alterar as tabelas e adicionar inimigos, que vão ser
+deletados nessa parte da história. Essa parte consiste de deletar dois "Magos SQL Inimigos" dos
+habitantes da cidade SQL. Lembrete, isso vai foder o jogo inteiro e ter que refazer os query1-7
+
+3- Fazer um botão "Restaurar tabelas" que deleta as tabelas e refaz uma cópia das originais com
+o id da sessão, acho que usar ajax funciona. É importante lembrar de adicionar uma versão onde
+as tabelas restauradas são as que vem depois do tutorial de INSERT, adicionando "Joaquim" com
+emprego de "Guard", e uma versão que vem depois do tutorial de UPDATE, adicionando "Joaquim" com
+emprego de "Guard Captain".
+
+4- Preparar a parte final, alterar vários cidadãos para o nome do emprego deles + "Infectado",
+a história é que antes de ser apagados, os magos SQL inimigos vão ter mudado os cidadãos e os
+infectado com a doença do sql defeituoso, adicionar também "Magos Disfarçados". A tarefa deve ser
+primeiro adicionar um "Medico SQL", em seguida dar update nos cidadãos com Infectado no nome,
+tirando o Infectado do nome deles e por fim deletar os "Magos Disfarçados".
+
+5- Por ultimo, se adicionar ao jogo com o emprego de "Mestre SQL"
+
+6- Jogo livre, podendo alterar as tabelas como quiser. Adicionar um código para ir direto ao jogo
+livre.
