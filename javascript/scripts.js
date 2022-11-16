@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$( window ).on("load", function(){
 	var contador = 0;
 	var m = 1;
 	var split_Query;
