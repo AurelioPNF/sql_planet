@@ -511,6 +511,7 @@ $( window ).on("load", function(){
 
 
 	$(".btnContinuar").click(function(){
+		console.log("a")
 		contador++;
 		$("#quest").text(falas[contador][0]);
 		console.log(contador);
