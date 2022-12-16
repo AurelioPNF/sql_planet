@@ -2,10 +2,10 @@
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
-    $servername = "us-cdbr-east-06.cleardb.net";
-    $username = "b9d7c802785a99";
-    $password = "835797f1";
-    $dbname = "heroku_7bd78ab84fef851";
+    $servername = "-";
+    $username = "-";
+    $password = "-";
+    $dbname = "-";
     $result_array = array();
 
     $conn = new mysqli($servername, $username, $password, $dbname);
